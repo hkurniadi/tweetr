@@ -1,0 +1,40 @@
+.container h2 {
+  border-bottom: 1px solid black;
+  margin: 10px;
+}
+
+.container .new-tweet {
+  background: #eee;
+  border-radius: 7px;
+  border: 2px solid #c0c0c0;
+  margin: 2em;
+  position: relative;
+}
+
+.container .new-tweet input {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.container .new-tweet .counter {
+  bottom: 10px;
+  font-size: 13px;
+  font-style: italic;
+  position: absolute;
+  right: 18px;
+}
+
+form {
+  margin: 10px;
+}
+
+textarea {
+  margin-bottom: 25px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+textarea[placeholder] {
+  padding: 6px;
+}
