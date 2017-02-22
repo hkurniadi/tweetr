@@ -29,10 +29,6 @@ form {
   margin: 10px;
 }
 
-.negative-char-remaining {
-  color: red;
-}
-
 textarea {
   margin-bottom: 25px;
   margin-top: 8px;

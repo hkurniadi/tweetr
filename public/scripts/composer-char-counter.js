@@ -1,3 +1,4 @@
+// Calculate and display the number of characters remaining for the input box
 $(document).ready(function() {
   const MAX_CHARS = 140;
   let $counter = $('.counter');

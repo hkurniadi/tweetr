@@ -1,0 +1,62 @@
+article.tweet {
+  border-radius: 7px;
+  border: 2px solid #c0c0c0;
+  margin-top: 10px;
+}
+
+article.tweet:hover {
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+article.tweet:hover footer.tweet-footer i {
+  bottom: 1px;
+  display: block;
+  padding: 2px;
+  position: absolute;
+  right: 5px;
+}
+
+article.tweet h1 {
+  margin: 0 15px;
+  padding-top: 5px;
+}
+
+article.tweet header {
+  background: #eee;
+  border-radius: 7px 7px 0 0;
+  margin: 0;
+  position: relative;
+}
+
+#tweets-container {
+  margin: 2em;
+}
+footer.tweet-footer {
+  position: relative;
+}
+
+footer.tweet-footer p {
+  padding-left: 15px;
+}
+
+footer.tweet-footer i{
+  bottom: 1px;
+  display: none;
+  position: absolute;
+  right: 5px;
+}
+
+header.tweet-header p {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+
+section.tweet-content {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+section.tweet-content p {
+  padding: 15px;
+}
