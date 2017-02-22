@@ -9,24 +9,18 @@ article.tweet:hover {
   border: 2px solid black;
 }
 
-article.tweet:hover footer.tweet-footer i {
-  bottom: 1px;
+article.tweet:hover footer.tweet-footer span {
+  bottom: 0px;
   display: block;
-  padding: 2px;
   position: absolute;
-  right: 5px;
-}
-
-article.tweet h1 {
-  margin: 0 15px;
-  padding-top: 5px;
+  right: 15px;
 }
 
 article.tweet header {
   background: #eee;
   border-radius: 7px 7px 0 0;
   margin: 0;
-  position: relative;
+  overflow: auto;
 }
 
 #tweets-container {
@@ -37,24 +31,39 @@ footer.tweet-footer {
 }
 
 footer.tweet-footer p {
+  line-height: 20px;
   padding-left: 15px;
 }
 
-footer.tweet-footer i{
-  bottom: 1px;
+footer.tweet-footer span {
+  bottom: 0px;
   display: none;
   position: absolute;
-  right: 5px;
+  right: 15px;
+}
+
+header.tweet-header h1 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+header.tweet-header img {
+  border-radius: 7px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 7px;
 }
 
 header.tweet-header p {
-  position: absolute;
-  right: 15px;
-  top: 0px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 17px;
 }
 
 section.tweet-content {
   border-bottom: 1px solid #c0c0c0;
+  clear: both;
 }
 
 section.tweet-content p {
