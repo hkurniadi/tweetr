@@ -2,15 +2,13 @@ article.tweet {
   border-radius: 7px;
   border: 2px solid #c0c0c0;
   margin-top: 10px;
-  opacity: 0.7;
-  transition: 1.0s all ease-in-out;
+  opacity: 0.8;
 }
 
 article.tweet:hover {
   border-radius: 7px;
   border: 2px solid black;
   opacity: 1;
-  transition: 1.0s all ease-in-out;
 }
 
 article.tweet:hover footer.tweet-footer span {
