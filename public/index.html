@@ -33,6 +33,9 @@
 
     <!-- Composer Character Counter JS -->
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
+    <!-- Compose Box JS -->
+    <script type="text/javascript" src="/scripts/compose-box.js"></script>
   </head>
 
   <body>
@@ -41,6 +44,7 @@
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png">
       <span class="header">Tweeter</span>
+      <button class="compose-button">Compose</button>
     </nav>
 
     <!-- Page-specific (main) content here -->
@@ -56,24 +60,7 @@
       </section>
       <!-- Display New Tweets -->
       <section id="tweets-container">
-        <article class="tweet">
-          <header class="tweet-header">
-            <img src="https://vanillicon.com/788e533873e80d2002fa14e1412b4188_50.png">
-            <h1>testUser</h1>
-            <p>@id</p>
-          </header>
-          <section class="tweet-content">
-            <p>my tweet here</p>
-          </section>
-          <footer class="tweet-footer">
-            <p>10 days ago</p>
-            <span class='hidden-buttons'>
-              <i class="fa fa-flag" aria-hidden="true"></i>
-              <i class="fa fa-retweet" aria-hidden="true"></i>
-              <i class="fa fa-heart" aria-hidden="true"></i>
-            </span>
-          </footer>
-        </article>
+        <!-- Dynamic DOM Creation Here; Using JS -->
       </section>
     </main>
   </body>

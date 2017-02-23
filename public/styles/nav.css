@@ -7,6 +7,30 @@
   z-index: 1;
 }
 
+#nav-bar .compose-button {
+  background: #d7f9fd;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #00a087;
+  float: right;
+  height: 50px;
+  margin-top: 15px;
+  text-decoration: none;
+  width: 90px;
+}
+
+#nav-bar .compose-button:hover {
+  background: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  float: right;
+  height: 50px;
+  margin-top: 15px;
+  text-decoration: none;
+  width: 90px;
+}
+
 #nav-bar .logo {
   float: left;
   height: 80px;
