@@ -12,7 +12,7 @@ module.exports = function(DataHelpers) {
       if (err) {
         res.status(500).json({ error: err.message });
       } else {
-        const sortNewestFirst = (a, b) => a.created_at - b.created_at;
+        let sortNewestFirst = (a, b) => a.created_at - b.created_at;
         res.json(tweets.sort(sortNewestFirst));
       }
     });

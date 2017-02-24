@@ -13,24 +13,29 @@
 
 .container .new-tweet input {
   bottom: 10px;
+  font-size: 20px;
+  height: 35px;
   left: 10px;
-  position: absolute;
+  padding-top: 5px;
+  float: left;
+  width: 70px;
 }
 
 .container .new-tweet .counter {
   bottom: 10px;
-  font-size: 13px;
+  font-size: 18px;
   font-style: italic;
-  position: absolute;
+  float: right;
+  margin-top: 5px;
   right: 18px;
 }
 
 form {
   margin: 10px;
+  overflow: auto;
 }
 
 textarea {
-  margin-bottom: 25px;
   margin-top: 8px;
   width: 100%;
 }

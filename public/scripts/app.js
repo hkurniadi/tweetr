@@ -42,7 +42,7 @@ $(document).ready(function() {
   }
 
   function renderTweets(tweets) {
-    Array.from(tweets).forEach((tweet) => {
+    tweets.forEach((tweet) => {
       let $tweet = createTweetElement(tweet);
       $('#tweets-container').prepend($tweet);
     });
